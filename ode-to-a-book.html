@@ -1,0 +1,181 @@
+<doctype! <!DOCTYPE html>
+<html lang="eng">
+<meta charset="UTF-8">
+
+<head>
+	<title>Flex box Project</title>
+	<style>
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC|Quicksand);
+	body {
+			background: url('img/lake.jpg');
+			 -webkit-background-size: cover;
+  			-moz-background-size: cover;
+  			-o-background-size: cover;
+  			background-size: cover;
+			font-size: 150%;
+			font-family: 'Quicksand', sans-serif;
+			
+		
+	}
+
+	h1 {
+		text-align: center;
+		color: #000000;
+	}
+	.flex-container {
+		width:90%;
+		padding: 10px;
+		margin: auto;
+		border: solid 2px yellow;
+		-webkit-display: flex; 
+		-ms-display: flexbox; 
+		display: flex; 
+		flex-flow: row nowrap;
+		/*-webkit-justify-content:space-between;
+		-ms-flexpackjustify-content:space-between;
+		justify-content: space-between;
+		
+		justify-content:
+		flex-start, flex-end, center, space-around, space-between*/
+
+		/*flex-flow: row-reverse ; reverses order of collums
+		flex-flow: collumn ; makes all one collumn
+		flex-flow: collumn-reverse ; reverses collumns
+		flex-flow: row wrap; helps if you have a width-makes it fixed
+		flex-flow: row-reverse ; 
+		*/
+
+		/*-webkit-align-items: center;
+		-ms-flex-align: start, end, center, baseline;
+		align-items: center;
+		flex-start, flex-end, center, stretch, baseline*/
+	}
+
+	.flex-container section{
+		background: rgba(255,255,255,0.4);
+		border: dotted 3px black;
+		padding:10px;
+		margin: 0 1%;
+		flex: 1;
+	}
+
+	.flex-container section:nth-of-type(2n) {
+		flex: 2;
+	}
+
+
+	@media only screen and (max-width: 480px) {
+		.flex-container {
+			-webkit-flex-flow:column;
+		}
+	}
+	</style>
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67737504-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<header>
+	<h1>Ode to a Book</h1>
+</header>
+<main class="flex-container">
+	<section>
+		<h2></h2>
+		<p>When I close a book , 
+		<br><font size="24">I open life.  </font>
+		<br>I hear  
+		<br>faltering cries  
+		<br>among harbours.  
+		<br>Copper ignots  
+		<br>slide down sand-pits  
+		<br>to Tocopilla.  
+		<br>Night time. 
+		<br>Among the islands 
+		<br>our ocean  
+		<br>throbs with fish, 
+		<br>touches the feet, the thighs, 
+		<br>the chalk ribs 
+		<br>of my country. 
+		<br>The whole of night 
+		<br>clings to its shores, by dawn 
+		<br>it wakes up singing 
+		<br>as if it had excited a guitar.
+		<br>The ocean's surge is calling. 
+		<br>The wind 
+		<br>calls me 
+		<br>and Rodriguez calls, 
+		<br>and Jose Antonio-- 
+		</p>
+	</section>
+	<section>
+		<h2></h2>
+		<p>I got a telegram 
+		<br>from the "Mine" Union 
+		<br>and the one I love 
+		<br>(whose name I won't let out) 
+		<br>expects me in Bucalemu.
+		<br>No book has been able 
+		<br>to <font size="10">wrap me in paper, </font>
+		<br>to fill me up 
+		<br>with typography, 
+		<br>with heavenly imprints 
+		<br>or was ever able 
+		<br>to bind my eyes, 
+		<br>I come out of books to people orchards 
+		<br>with the hoarse family of my song, 
+		<br>to work the burning metals 
+		<br>or to eat smoked beef 
+		<br>by mountain firesides. 
+		<br>I love adventurous 
+		<br>books, 
+		<br>books of forest or snow, 
+		<br>depth or sky 
+		<br>but hate 
+		<br>the spider book  in which thought 
+		<br>has laid poisonous wires 
+		<br>to trap the juvenile 
+		<br>and circling fly. </p>
+	</section>
+	<section>
+		<h2></h2>
+		<p>Book, let me go. 
+		<br>I won't go clothed 
+		<br>in volumes, 
+		<br>I don't come out 
+		<br>of collected works, 
+		<br>my poems 
+		<br>have not eaten poems-- 
+		<br><font size="24">they devour </font>
+		<br>exciting happenings, 
+		<br>feed on rough weather, and dig their food 
+		<br>out of earth and men. 
+		<br>I'm on my way 
+		<br>with dust in my shoes 
+		<br>free of mythology: 
+		<br>send books back to their shelves, 
+		<br>I'm going down into the streets. 
+		<br>I learned about life 
+		<br>from life itself, 
+		<br>love I learned in a single kiss 
+		<br>and could teach no one anything 
+		<br>except that I have lived 
+		<br>with <font size="24">something in common </font> among men, 
+		<br>when fighting with them, 
+		<br>when saying all their say in my song. </p>
+	</section>
+</main>
+</body>
+
+
+
+
+</html>
+
